@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fluff & Stuff Petshop</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style4.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <img src=pawlogo.jpeg height="80" width="80">
+	
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#review">Reviews</a>
+        <a href="#contact">Contact us</a>
+		<a href="#Services">Services</a>
+    </nav>
+
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+		<a href="#" class="fas fa-search"></a>
+		
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Welcome To The Fluff & Stuff Petshop</h3>
+        <span> Love, treat and care for your pets! </span>
+        <p>Animals have come to mean so much in our lives. 
+		We live in a fragmented and disconnected culture. 
+		Politics are ugly, religion is struggling, technology is stressful, and the economy is unfortunate. 
+	    What’s one thing that we have in our lives that we can depend on? A dog or a cat loving us unconditionally, every day, very faithfully.” – Jon Katz.</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span> about </span> us </h1>
+
+    <div class="row">
+
+        <div class="video-container">
+            <video src="dogvideo.mp4" loop autoplay muted></video>
+            
+        </div>
+
+        <div class="content">
+            <h3>why to choose us?</h3>
+            <p>First and foremost,we have a dynamic teamcrew to help your pets and you in all the possible ways.
+			thanks to our services we provide.
+			We also have different branches across the globe which results in better experience in our customer service.
+			Below are some advantages you get from shopping with us.</p>
+           
+			<a href="#" class="btn">learn more</a>
+			
+			
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <img src="delivery.png" alt="">
+        <div class="info">
+            <h3>free delivery</h3>
+            <span>on all orders</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="icon2.png" alt="">
+        <div class="info">
+            <h3>10 days returns</h3>
+            <span>moneyback guarantee</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="gift.png" alt="">
+        <div class="info">
+            <h3>offer & gifts</h3>
+            <span>on all orders</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="card.png" alt="">
+        <div class="info">
+            <h3>secure paymens</h3>
+            <span>protected by MasterCard
+		</span>
+        </div>
+    </div>
+   
+</section>
+
+<!-- icons section ends -->
+
+<!-- prodcuts section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> Customer's <span> favourites</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <span class="discount">-Rs 100</span>
+            <div class="image">
+                <img src="pedigree.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Dogs' Food</h3>
+                <div class="price"> Rs 300 <span>Rs 450</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-Rs 100</span>
+            <div class="image">
+                <img src="cat food.webp" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Cats' food</h3>
+                <div class="price"> Rs 115 <span>Rs 215</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-Rs 15</span>
+            <div class="image">
+                <img src="fishfood.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3> Fishes' food</h3>
+                <div class="price"> Rs 200 <span>Rs 215</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-Rs 200</span>
+            <div class="image">
+                <img src="birdfood.webp" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>birds' food</h3>
+                <div class="price"> Rs 200 <span>Rs 400</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-Rs 15</span>
+            <div class="image">
+                <img src="chew.webp" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Dog Chew Toys</h3>
+                <div class="price"> Rs 200 <span>Rs 215</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-Rs 200</span>
+            <div class="image">
+                <img src="laser.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Laser toy for cats</h3>
+                <div class="price"> Rs 200 <span>Rs 400</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-Rs 15</span>
+            <div class="image">
+                <img src="boat.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Decoration for your fish tank</h3>
+                <div class="price"> Rs 300 <span>Rs 315</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-Rs 30</span>
+            <div class="image">
+                <img src="birdtoy.webp" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Rotating Bird Toy</h3>
+                <div class="price"> Rs 430 <span>Rs 460</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-Rs 10</span>
+            <div class="image">
+                <img src="bow.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Bow & Ties for your best buddies (Dogs & Cats) </h3>
+                <div class="price"> Rs 50 <span>Rs 60</span> </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- prodcuts section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+<h1 class="heading"> customer's <span>review</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Excellent customer service from the F & S 
+		teamcrew. My dog really enjoyed his toy as well as his free treats </p>
+        <div class="user">
+            <img src="girl.jpg" alt="">
+            <div class="user-info">
+                <h3>Jennifer Lawrence</h3>
+                <span>Pleased  Customer</span>
+            </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+    </div>
+
+    <div class="box">
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Very satisfied with the friendly customer service and also for very quick delivery. I totally recommend this website!
+		</p>
+        <div class="user">
+            <img src="boy.jpg" alt="">
+            <div class="user-info">
+                <h3>Josh Paddington</h3>
+                <span>Satisfied Customer </span>
+            </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+    </div>
+
+    <div class="box">
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p> So excited to shop again here for my cat.Really enjoyed the service they provided and my bud definitely enjoyed his grooming </p>
+        <div class="user">
+            <img src="girl2.jpg" alt="">
+            <div class="user-info">
+                <h3>Mary Jane Whisper</h3>
+                <span>Excited customer</span>
+            </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+    </div>
+
+</div>
+    
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+     <h1 class="heading"> <span> contact </span> us </h1>
+
+    <div class="row">
+
+        <form action="">
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="number" placeholder="number" class="box">
+			
+            <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+        <div class="image">
+            <img src="contact us.jpg" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+<!-- Services section starts-->
+<section class="Services" id="Services">
+<h1 class="heading"> <span> Our <span> Services </span> </h1>
+
+
+ <div class="row">
+
+        <form action="">
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="number" placeholder="number" class="box">
+			
+			<div class="custom-select" style="width:200px;">
+			<select>
+			<option value="0"> Select Service:</option>
+			<option value="1">Grooming </option>
+			<option value="2">Spa Sessions </option>
+			<option value="1">Veto-care/Day-care</option>
+			</select>
+			</div>
+			
+            <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+            </form>
+
+        <div class="image">
+        <img src="groom.jpg" alt="">
+        </div>
+
+    </div>
+
+
+<!--services section ends-->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Products</a>
+            <a href="#">Reviews</a>
+            <a href="#">Contact Us</a>
+			<a href="#">Services</a>
+        </div>
+
+        <div class="box">
+            <h3>Additional links</h3>
+            <a href="#">My Account</a>
+            <a href="#">My Order</a>
+            <a href="#">My Favorite</a>
+        </div>
+
+        <div class="box">
+            <h3>Locations</h3>
+            <a href="#">Port-Louis</a>
+            <a href="#">Quatre-Bornes</a>
+            <a href="#">Mahebourg</a>
+            
+        </div>
+
+        <div class="box">
+            <h3>Contact Details</h3>
+            <a href="#">+ 230 456789</a>
+            <a href="#">FluffStuffPetshop@gmail.com</a>
+            <a href="#">PortLouis,Mauritius- 400104</a>
+            <img src="payment.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> Punnoo Mohita & Veeraragoo Ishwari </span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+   
+</body>
+</html>
